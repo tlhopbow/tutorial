@@ -1,0 +1,314 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding:0;
+  margin:0;
+  background-color: #f4f4f4;
+}
+/*global*/
+.container{
+  width: 80%;
+  margin:auto;
+  overflow: hidden;
+
+}
+
+.button_1 {
+  height:38px;
+  width: 125px;
+  background:#e8391d;
+  border: 0;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color:#ffffff;
+  margin-top: -6px;
+  cursor: pointer;
+}
+
+.button_1:hover{
+  background: #ffffff;
+  color: #e8391d;
+  font-weight: bold;
+
+}
+
+.button_1:active{
+  background: #ffffff;
+  color: #e8391d;
+  font-weight: bold;
+}
+
+.button_2 {
+  float:right;
+  height:37px;
+  background:#e8391d;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color:#ffffff;
+  cursor: pointer;
+}
+
+
+nav #login {
+  border-right: 1px solid #ddd;
+  box-shadow: 1px 0 0 #fff;
+}
+
+nav #login-trigger,
+nav #signup a {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  height: 25px;
+  line-height: 25px;
+  font-weight: bold;
+  padding: 0 8px;
+  text-decoration: none;
+  color: #444;
+  text-shadow: 0 1px 0 #fff;
+}
+
+nav #signup a {
+  border-radius: 0 3px 3px 0;
+}
+
+nav #login-trigger {
+  border-radius: 3px 0 0 3px;
+}
+
+nav #login-content {
+  display: none;
+  position: absolute;
+  top: 79px;
+  margin-right: 60px;
+  z-index: 999;
+  background: #fff;
+  background-image: linear-gradient(top, #fff, #eee);
+  padding: 15px;
+  box-shadow: 0 2px 2px -1px rgba(0,0,0,.9);
+  border-radius: 3px 0 3px 3px;
+}
+
+nav li #login-content {
+  right: 0;
+  width: 250px;
+}
+
+/*--------------------*/
+
+#inputs input {
+  background: #f1f1f1;
+  padding: 6px 5px;
+  margin: 0 0 5px 0;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 0 1px 1px #ccc inset;
+}
+
+#inputs input:focus {
+  background-color: #fff;
+  border-color: #e8c291;
+  outline: none;
+  box-shadow: 0 0 0 1px #e8c291 inset;
+}
+
+/*--------------------*/
+
+#login #actions {
+  margin: 10px 0 0 0;
+}
+
+.button3 {
+  background-color: #e8391d;
+  background-image: linear-gradient(top, #e97171, #d14545);
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-top: 4px;
+  margin-left: 60px;
+  text-shadow: 0 1px 0 rgba(0,0,0,.5);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+  border: 1px solid #7e1515;
+  float: center;
+  height: 38px;
+  padding: 0;
+  width: 100px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.button3:hover,
+.button3:focus {
+  background-color: #e97171;
+  background-image: linear-gradient(top, #d14545, #e97171);
+}
+
+.button3:active {
+  outline: none;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+}
+
+.button3::-moz-focus-inner {
+  border: none;
+}
+
+#login label {
+  float: right;
+  line-height: 30px;
+}
+
+#login label input {
+  position: relative;
+  top: 2px;
+  right: 2px;
+}
+
+
+
+
+
+
+/*header*/
+header{
+  background:#35424a;
+  color:#ffffff;
+  padding-top:35px;
+  min-height:70px;
+  border-bottom:#e8491d 3px solid;
+}
+header a{
+  color:#cccccc;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 10px 0 10px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+
+header nav{
+  float:right;
+
+}
+
+header .highlight, header .current a{
+  color:#e8491d;
+  font-weight: bold;
+}
+header a:hover{
+
+  text-shadow: 0 0 .65px #cccccc, 0 0 .65px #cccccc;
+}
+
+
+/*showcase*/
+#showcase{
+  min-height: 400px;
+  background:url('../img/banner.jpg');
+  text-align: center;
+  color: #ffffff;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#showcase h1{
+  margin-top: 50px;
+  font-size: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#showcase p{
+  font-size: 20px;
+  text-align: center;
+
+}
+
+/*newsletter*/
+#newsletter{
+  width: 100%;
+  max-width: 100%
+  padding: 15px;
+  color:#ffffff;
+  background:#35424a;
+}
+
+#newsletter h1{
+  float:left;
+  margin-left: 150px;
+  display: inline;
+}
+
+
+#newsletter li{
+  float:right;
+  display:inline;
+  margin-top: 15px;
+  padding: 0 5px 0 5px;
+}
+
+#emailSubscribe {
+  margin-right: 150px;
+}
+
+
+#newsletter input[type="email"]{
+  padding: 4px;
+  height:25px;
+  width: 250px;
+}
+
+/*boxes*/
+#boxes {
+  margin: auto;
+  margin-top: 15px;
+  max-width: 95%
+}
+#boxes li{
+  align-items: center;
+  overflow: hidden;
+	width: 80%;
+  padding: 0 5px 0 5px;
+}
+
+
+#boxes li img{
+  align-items: center;
+  width: 750px;
+  height: 100px;
+  padding: 10px;
+}
+
+/* campground*/
+
+.campbanner {
+  padding-top: 75px;
+  width: 90%;
+  margin: auto;
+  overflow:hidden;
+}
+/*footer*/
+footer {
+  padding:20px;
+  margin-top: 20px;
+  color:#ffffff;
+  text-align:center;
+}
